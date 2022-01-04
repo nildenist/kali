@@ -75,9 +75,9 @@ Kurbana yolladigimiz dosyaya(trojan, virus) tikladiginda baglanti nereye gitsin?
 
 ngrok.com
 
-```service aoache2 start``` Kali Linux un icerisinde bulunan apache2 adli sunucu calistiracak. Sunucu nedir? Icersiinde dosyalar bulunan, internet uzerinde farkli yerlere hizmet vermemizi olanak taniyan bir makina. Normalde web sitelerini sunucular uzerinde saklariz. Misal kendi Kali Linux muz icerisinde bir web sitesi yapabiliriz. 
+```service apache2 start``` Kali Linux un icerisinde bulunan apache2 adli sunucu calistiracak. Sunucu nedir? Icersinde dosyalar bulunan, internet uzerinde farkli yerlere hizmet vermemizi olanak taniyan bir makina. Normalde web sitelerini sunucular uzerinde saklariz. Misal kendi Kali Linux muz icerisinde bir web sitesi yapabiliriz. 
 
-Kali Linux muz icerisinde;
+Kali Linux icerisinde;
 **/var/www/html/index.html** path inde web sitesi bulunmakta. Kali Linux NAT network de ve burada baska herhangi bir makina yok. Eger farkli isletim sistemelriyle farkli VM lrimiz olsaydi bu web sitesine hepsinden girilebilirdi cunku ayni agda olacaklardi. 
 
 ```ifconfig``` yazdigimizda inet in yanindaki IP adresini Firfox u acip arama cubuguna yazdigimizda apache 2 web sayfasi acilacak. 
